@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="viewport" content="width=device-width, user-scalable=0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="tipo-cadastro">
+        <h1>Tipo de Formulário</h1>
+        <form action="local-onde-vai-ser-enviado" method="post">
+            
+            <label for="pessoa">Pessoa Física</label>
+            <input type="radio" name="pessoa" id="pessoa">
+            <label for="pessoa">Pessoa Juridica</label>
+            <input type="radio" name="pessoa" id="pessoa">
+         </form>
+
+    </div>
+
+    <div class="container_formulario">
+
+        <div>
+            Dados pessoais
+
+        </div>
+
+            <div>
+                <form action="local-onde-vai-ser-enviado">
+                    
+                    <label for="nome-completo">Nome Completo</label>
+                    <input type="text" name="nome-completo" id="nome-completo"><br>
+
+                    <label for="cnpj">CNPJ</label>
+                    <input type="number" name="cnpj" id="cnpj"><br>
+
+                    <label for="razaosocial">Razão Social</label>
+                    <input type="number" name="razaosocial" id="razaosocial"><br>
+                    
+                    <label for="insc-estadual">Inscrição Estadual</label>
+                    <input type="text" name="insc-estadual" id="insc-estadual"><br>
+
+                    <label for="celular"> Celular</label>
+                    <input type="number" name="celular" id="celular"><br>
+
+                    <label for="fixo">Telefone fixo</label>
+                    <input type="tel" name="fixo" id="fixo">
+                </form>
+            </div>
+
+        <div>
+            <div>
+                Endereço
+            </div>
+
+            <div>
+                <form action="local-onde-vai-ser-enviado">
+
+                    <label for="cep">CEP</label>
+                    <input type="number" name="cep" id="cep"><br>
+
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco"><br>
+
+                    <label for="nresidencia">Número</label>
+                    <input type="number" name="nresidencia" id="nresidencia"><br>
+
+                    <label for="complemento">Complementeo</label>
+                    <input type="text" name="complemento" id="complemento"><br>
+
+                    <label for="referencia">Referência</label>
+                    <input type="text" name="referencia" id="referencia"><br>
+
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" id="bairro">
+
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade"><br>
+
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="estado">RJ</option>
+                        <option value="estado">MG</option>
+                    </select>
+                </form> 
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <button>Cancelar</button>
+        <button>Criar Conta</button>
+    </div>
+</body>
+</html>
