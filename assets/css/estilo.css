@@ -39,6 +39,8 @@ body {
     border-top: 2px solid #000;
     
 }
+
+
 .container_formulario{
     display: flex;
 
@@ -71,9 +73,10 @@ body {
 }
 
 .formulario1 input {
-    display: inline-block;
-    align-items: end;
+    align-items: start;
     border-radius: 5px;
+    width: 440px;
+    
 }
 
 .formulario2 {
@@ -93,10 +96,22 @@ body {
         flex-wrap: wrap;
        
     }
+    .formulario2 div{
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .formulario1 div{
+        display: flex;
+        flex-wrap: wrap
+    }
+
+
 }
 
-.formulario2 input {
 
+.formulario2 input {
+    width: 440px;
     border-radius: 5px;
 }
 
