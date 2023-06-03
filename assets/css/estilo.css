@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 18px;
+    background-color: #eee;
+    font-family: 'Arial';
+    
+}
+
+.todo {
+    margin: 14px;
+    background-color: #fff;
+    padding-top: 8px;
+    padding-bottom: 30px;
+
+}
+
+.tipo-cadastro h1{
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial;
+    padding-bottom: 15px;
+}
+
+.tipo-cadastro form{
+    padding-top: 10px;
+}
+
+.tipo-cadastro {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    box-shadow:  1px 0px 3px 2px #ccc;
+    margin-right:27px;
+    border-top: 2px solid #000;
+    
+}
+.container_formulario{
+    display: flex;
+
+}
+.titulo-form {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.titulo-form img {
+    height: 50px;
+    padding-top: 20px;
+    
+}
+
+.formulario1 {
+    box-shadow: 0px 0px 3px 2px #ccc;
+    border-top: 2px solid #000;
+    width: 668px;
+    height:514px ;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 19px;    
+    
+
+}
+
+.formulario1 input {
+    display: inline-block;
+    align-items: end;
+    border-radius: 5px;
+}
+
+.formulario2 {
+    box-shadow: 0px 0px 3px 2px #ccc;
+    width: 668px;
+    height:618px ;
+    margin-top: 20px;
+    margin-right: 24px;
+    margin-left: 19px;
+    margin-bottom: 20px;
+    border-top: 2px solid #000;
+
+}
+@media (max-width:724px){
+    .container_formulario {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+}
+
+.formulario2 input {
+
+    border-radius: 5px;
+}
+
+.divid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.estado {
+    margin-left: 10px;
+}
+
+.bottao {
+    display: flex;
+    justify-content: end;
+    margin-right: 11px;
+}
+.bottao button{
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.verde  {
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
